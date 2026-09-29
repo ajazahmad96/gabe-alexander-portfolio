@@ -15,7 +15,10 @@ export const site = {
   ],
 
   // Short silent loop behind the hero (a 10 to 20 second cut, MP4, under ~8 MB works well).
-  heroLoop: { src: '', poster: '' },
+  heroLoop: {
+  src: 'https://assets.mixkit.co/videos/44071/44071-720.mp4',
+  poster: 'https://assets.mixkit.co/videos/44071/44071-thumb-720-0.jpg',
+},
 
   // The full showreel. Use ONE of: a direct file (src) or an embed URL (Vimeo/YouTube player link).
   reel: { src: '', poster: '', embed: '' },
